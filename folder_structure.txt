@@ -1,0 +1,29 @@
+Genomeanalysis└── /
+├── analyses
+│ ├── 01_preprocessing
+│ │   ├── trimming_software
+│ │   │   ├── conditionA.trim.fastq.gz -> ../../../data/trimmed_data/SRR00001.trimmed.fastq.gz
+│ │   │   └── conditionB.trim.fastq.gz -> ../../../data/trimmed_data/SRR00002.trimmed.fastq.gz
+│ │   ├── fastqc_raw
+│ │   │   └── fastqc_report.txt
+│ │   └── fastqc_trim
+│ │       └── fastqc_report.txt
+│ ├── 02_genome_assembly
+│ │   ├── assembly_softwareA_settingsX
+│ │   └── assembly_softwareB_settingsX
+│ └── 03_structural_annotation
+│     └── annotation_software_settingsX
+├── code
+│   ├── 0_gather_data.sh
+│   ├── 1_preprocessing.sh
+│   ├── 2_genome_assembly.sh
+│   └── 3_structural_annotation.sh
+└── data
+    ├── metadata
+    │   └── 
+    ├── raw_data
+    │   ├── 
+    │   └── 
+    └── trimmed_data	
+        ├── 
+        └──  
