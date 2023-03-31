@@ -1,4 +1,4 @@
-Genomeanalysis└── /
+Genomeanalysis/
 ├── analyses
 │ ├── 01_preprocessing
 │ │   ├── trimming_software
