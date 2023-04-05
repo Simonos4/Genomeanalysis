@@ -1,0 +1,26 @@
+#!/bin/bash -l
+
+#SBATCH -A uppmax2023-2-8
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 15:00:00
+#SBATCH -J 0201_trimming
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user simon.oscarson.2633@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+
+for f in *_R1.fastq.gz # for each sample
+
+do
+    n=${f%%_R1.fastq.gz} # strip part of file name
+    trimmomatic PE -threads $1 ${n}_R1.fastq.gz  ${n}_R2.fastq.gz \
+    ${n}_R1_trimmed.fastq.gz ${n}_R1_unpaired.fastq.gz ${n}_R2_trimmed.fastq.gz \
+    ${n}_R2_unpaired.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 \
+    LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+done
+
+https://hackmd.io/@ranmk/trimmomatic
