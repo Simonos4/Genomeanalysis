@@ -1,6 +1,7 @@
 cd /proj/genomeanalysis2023/Genome_Analysis/2_Christel_2017/
 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
 
+### Push and pull
 git init
 git add .
 git status
