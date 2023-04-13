@@ -1,0 +1,115 @@
+/sw/bioinfo/quast/5.0.2/snowy/bin/quast.py /home/simonos/Genomeanalysis/analysis/assembly/lferriphilum.contigs.fasta -R /home/simonos/Genomeanalysis/data/raw_data/reference/OBMB01.fasta -o /home/simonos/Genomeanalysis/analysis/quast/
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.88.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2023-04-13 14:03:17
+
+Logging to /home/simonos/Genomeanalysis/analysis/quast/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/simonos/Genomeanalysis/code
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/simonos/Genomeanalysis/data/raw_data/reference/OBMB01.fasta ==> OBMB01
+
+Contigs:
+  Pre-processing...
+  /home/simonos/Genomeanalysis/analysis/assembly/lferriphilum.contigs.fasta ==> lferriphilum.contigs
+
+2023-04-13 14:03:21
+Running Basic statistics processor...
+  Reference genome:
+    OBMB01.fasta, length = 2610531, num fragments = 2, GC % = 54.14
+  Contig files: 
+    lferriphilum.contigs
+  Calculating N50 and L50...
+    lferriphilum.contigs, N50 = 2562260, L50 = 1, Total length = 2615124, GC % = 54.12, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/basic_stats/GC_content_plot.pdf
+  Drawing lferriphilum.contigs GC content plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/basic_stats/lferriphilum.contigs_GC_content_plot.pdf
+Done.
+
+2023-04-13 14:03:23
+Running Contig analyzer...
+  lferriphilum.contigs
+  Logging to files /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/contigs_report_lferriphilum-contigs.stdout and contigs_report_lferriphilum-contigs.stderr...
+  Aligning contigs to the reference
+  /sw/bioinfo/quast/5.0.2/rackham/lib/python3.7/site-packages/quast_libs/minimap2/minimap2 \
+  -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ \
+  200 -g 2500 --score-N 2 --cs -t 4 /home/simonos/Genomeanalysis/analysis/quast/quast_corrected_input/OBMB01.fasta \
+  /home/simonos/Genomeanalysis/analysis/quast/quast_corrected_input/lferriphilum_contigs.fasta \
+  > /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/minimap_output/lferriphilum-contigs.coords_tmp \
+  2>> /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/contigs_report_lferriphilum-contigs.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2023-04-13 14:03:25
+Running NA-NGA calculation...
+  lferriphilum.contigs, Largest alignment = 2282075, NA50 = 2282075, NGA50 = 2282075, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/simonos/Genomeanalysis/analysis/quast/aligned_stats/NGAx_plot.pdf
+Done.
+
+2023-04-13 14:03:26
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  lferriphilum.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-04-13 14:03:27
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2023-04-13 14:03:29
+RESULTS:
+  Text versions of total report are saved to /home/simonos/Genomeanalysis/analysis/quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/simonos/Genomeanalysis/analysis/quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/simonos/Genomeanalysis/analysis/quast/report.html
+  PDF version (tables and plots) is saved to /home/simonos/Genomeanalysis/analysis/quast/report.pdf
+  Icarus (contig browser) is saved to /home/simonos/Genomeanalysis/analysis/quast/icarus.html
+  Log is saved to /home/simonos/Genomeanalysis/analysis/quast/quast.log
+
+Finished: 2023-04-13 14:03:29
+Elapsed time: 0:00:11.848137
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

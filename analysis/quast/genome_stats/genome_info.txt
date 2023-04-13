@@ -1,0 +1,15 @@
+reference chromosomes:
+	ENA_OBMB01000001_OBMB01000001.1 (total length: 2569357 bp, total length without N's: 2569357 bp, maximal covered length: 2547002 bp)
+	ENA_OBMB01000002_OBMB01000002.1 (total length: 41174 bp, total length without N's: 41174 bp, maximal covered length: 0 bp)
+
+total genome size: 2610531
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+lferriphilum_contigs     | 97.566    | 1.006       | 2         | -         | -         | -         | -         |
