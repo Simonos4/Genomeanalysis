@@ -8,3 +8,6 @@ git status
 git commit -m "Comment"
 git remote add origin https://github.com/Simonos4/Genomeanalysis.git
 git push
+git reset --soft HEAD~1
+git reset -- <file>
+git reset HEAD *
