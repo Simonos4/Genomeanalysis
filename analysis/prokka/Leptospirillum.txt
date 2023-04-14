@@ -1,0 +1,9 @@
+organism: Leptospirillum ferriphilum strain 
+contigs: 2
+bases: 2615124
+CDS: 2638
+CRISPR: 1
+gene: 2693
+rRNA: 6
+tRNA: 48
+tmRNA: 1
