@@ -1,0 +1,27 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 1 based on command line options.
+
+Attempting to increase maximum allowed processes and open files.
+  Changed max processes per user from 4096 to 514827 (max 514827).
+  Max open files limited to 16384, no increase possible.
+
+
+Opened '../lferriphilum.seqStore' with 40141 reads.
+
+Constructing slice 1 for store './lferriphilum.ovlStore.BUILDING'.
+ - Filtering overlaps over 1.0000 fraction error.
+
+Bucketizing input    1 out of    1 - '1-overlapper/results/000001.ovb'
+Success!

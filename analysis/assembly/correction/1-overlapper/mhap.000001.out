@@ -1,0 +1,81 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 1 based on command line options.
+Fetch blocks/000002.dat
+Fetch blocks/000003.dat
+
+Running block 000001 in query 000001
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 256
+--num-min-matches = 3
+--num-threads = 4
+--ordered-kmer-size = 14
+--ordered-sketch-size = 1000
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.8
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000001
+-s = ./blocks/000001.dat
+
+Processing files for storage in reverse index...
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Current # sequences loaded and processed from file: 15000...
+Current # sequences loaded and processed from file: 20000...
+Current # sequences loaded and processed from file: 25000...
+Current # sequences stored: 5000...
+Current # sequences stored: 10000...
+Current # sequences stored: 15000...
+Current # sequences stored: 20000...
+Current # sequences stored: 25000...
+Stored 25590 sequences in the index.
+Processed 25590 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 5.3693149280000005
+Time (s) to score and output to self: 8.246818054
+Opened fasta file /domus/h1/simonos/Genomeanalysis/analysis/assembly/correction/1-overlapper/blocks/000002.dat.
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Processed 12828 to sequences.
+Time (s) to score, hash to-file, and output: 10.378882882000001
+Opened fasta file /domus/h1/simonos/Genomeanalysis/analysis/assembly/correction/1-overlapper/blocks/000003.dat.
+Current # sequences loaded and processed from file: 5000...
+Processed 6063 to sequences.
+Time (s) to score, hash to-file, and output: 5.018990626
+Total scoring time (s): 23.656845788000002
+Total time (s): 29.0262849
+MinHash search time (s): 15.968683736000001
+Total matches found: 428461
+Average number of matches per lookup: 13.52209177554756
+Average number of table elements processed per lookup: 314.4944770561131
+Average number of table elements processed per match: 23.257827433535375
+Average % of hashed sequences hit per lookup: 0.4559563400509942
+Average % of hashed sequences hit that are matches: 11.589116653115497
+Average % of hashed sequences fully compared that are matches: 88.80959438199685

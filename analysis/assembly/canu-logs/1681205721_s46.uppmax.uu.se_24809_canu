@@ -1,0 +1,14 @@
+
+###
+###  Reading options from '/sw/bioinfo/canu/2.2/rackham/bin/canu.defaults'
+###
+
+# Add site specific options (for setting up Grid or limiting memory/threads) here.
+
+###
+###  Reading options from the command line.
+###
+
+genomeSize=2.4m
+useGrid=false
+maxThreads=4

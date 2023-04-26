@@ -1,0 +1,91 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 1 based on command line options.
+Initializing.
+Opening seqStore '../../lferriphilum.seqStore'.
+Correcting reads 1 to 40141.
+  Allowing alignment errors in simple sequence repeats (-s not supplied).
+Reading 208237 corrections from './red.red'.
+Correcting 54810057 bases with 155918 indel adjustments.
+--Allocate 52 + 1 + 1 MB for bases, adjusts and reads.
+Corrected 54755925 bases with 12178 substitutions, 54132 deletions and 101786 insertions.
+Loading overlaps.
+Read_Olaps()--  Loading 149824 overlaps from '../lferriphilum.ovlStore' for reads 1 to 40141
+--Allocate 4 MB for overlaps.
+Read_Olaps()--  Loaded 149824 overlaps -- 75076 normal and 74748 innie.
+Sorting overlaps.
+Recomputing overlaps.
+--Allocate 8 MB for fseq and rseq.
+--Allocate 32 MB for fadj and radj.
+--Allocate 16 MB for pedWorkArea_t.
+-- Allocate 0 MB for Edit_Array pointers.
+Recomputing overlaps -         1 -         1 -     40138
+--Allocate 16 MB for edit array work space 0 (positions 0-4092)
+Recomputing overlaps -         1 -      1025 -     40138
+Recomputing overlaps -         1 -      2049 -     40138
+Recomputing overlaps -         1 -      3073 -     40138
+Recomputing overlaps -         1 -      4097 -     40138
+Recomputing overlaps -         1 -      5121 -     40138
+Recomputing overlaps -         1 -      6145 -     40138
+Recomputing overlaps -         1 -      7169 -     40138
+Recomputing overlaps -         1 -      8193 -     40138
+Recomputing overlaps -         1 -      9217 -     40138
+Recomputing overlaps -         1 -     10241 -     40138
+Recomputing overlaps -         1 -     11265 -     40138
+Recomputing overlaps -         1 -     12289 -     40138
+Recomputing overlaps -         1 -     13313 -     40138
+Recomputing overlaps -         1 -     14337 -     40138
+Recomputing overlaps -         1 -     15361 -     40138
+Recomputing overlaps -         1 -     16385 -     40138
+Recomputing overlaps -         1 -     17409 -     40138
+Recomputing overlaps -         1 -     18433 -     40138
+Recomputing overlaps -         1 -     19457 -     40138
+Recomputing overlaps -         1 -     20481 -     40138
+Recomputing overlaps -         1 -     21505 -     40138
+Recomputing overlaps -         1 -     22529 -     40138
+Recomputing overlaps -         1 -     23553 -     40138
+Recomputing overlaps -         1 -     24577 -     40138
+Recomputing overlaps -         1 -     25601 -     40138
+Recomputing overlaps -         1 -     26625 -     40138
+Recomputing overlaps -         1 -     27649 -     40138
+Recomputing overlaps -         1 -     28673 -     40138
+Recomputing overlaps -         1 -     29697 -     40138
+Recomputing overlaps -         1 -     30721 -     40138
+Recomputing overlaps -         1 -     31745 -     40138
+Recomputing overlaps -         1 -     32769 -     40138
+Recomputing overlaps -         1 -     33793 -     40138
+Recomputing overlaps -         1 -     34817 -     40138
+Recomputing overlaps -         1 -     35841 -     40138
+Recomputing overlaps -         1 -     36865 -     40138
+Recomputing overlaps -         1 -     37889 -     40138
+Recomputing overlaps -         1 -     38913 -     40138
+Recomputing overlaps -         1 -     39937 -     40138
+
+--  Release bases, adjusts and reads.
+Olaps Fwd 75076
+Olaps Rev 74748
+Total:  149824
+Failed: 22 (both)
+Failed: 29 (either)
+Failed: 29 (match to end)
+Failed: 22 (negative length)
+Changed 149795 overlaps.
+Better: 149678 overlaps.
+Worse:  4 overlaps.
+Same:   113 overlaps.
+Sorting overlaps.
+Saving corrected error rates to file ./00001.oea.WORKING
+--Allocate 0 MB for output error rates.
+
+Bye.

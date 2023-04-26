@@ -1,0 +1,36 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 1 based on command line options.
+
+Attempting to increase maximum allowed processes and open files.
+  Changed max processes per user from 4096 to 514827 (max 514827).
+  Max open files limited to 16384, no increase possible.
+
+
+Finding overlaps.
+  found     813378 overlaps in './lferriphilum.ovlStore.BUILDING/bucket0001/sliceSizes'.
+  found     452918 overlaps in './lferriphilum.ovlStore.BUILDING/bucket0002/sliceSizes'.
+
+Loading    1266296 overlaps using 0.03 GB of allowed (-M) 1 GB memory.
+  loading     813378 overlaps from './lferriphilum.ovlStore.BUILDING/bucket0001/slice0001'.
+  loading     452918 overlaps from './lferriphilum.ovlStore.BUILDING/bucket0002/slice0001'.
+
+Sorting.
+
+Writing sorted overlaps.
+  created './lferriphilum.ovlStore.BUILDING/0001' with 1266296 overlaps for reads 1 to 39588.
+
+Removing bucketized overlaps.
+
+Success!

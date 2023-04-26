@@ -1,0 +1,65 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 1 based on command line options.
+/domus/h1/simonos/Genomeanalysis/analysis/assembly/correction/1-overlapper
+Opened seqStore '../../lferriphilum.seqStore' for 'raw' reads.
+Dumping raw reads from 1 to 16200 (inclusive).
+
+Starting mhap precompute.
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 256
+--num-min-matches = 3
+--num-threads = 4
+--ordered-kmer-size = 14
+--ordered-sketch-size = 1000
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.8
+--version = false
+-f = ../../0-mercounts/lferriphilum.ms16.ignore.gz
+-h = false
+-k = 16
+-p = ./000001.input.fasta
+-q = .
+-s = 
+
+Reading in filter file ../../0-mercounts/lferriphilum.ms16.ignore.gz.
+Read in values for repeat 0 and 0
+Warning, k-mer filter file has zero elements.
+Initializing
+Initialized
+Time (s) to read filter file: 0.089638245
+Read in k-mer filter for sizes: []
+Processing FASTA files for binary compression...
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Current # sequences loaded and processed from file: 15000...
+Current # sequences loaded and processed from file: 20000...
+Current # sequences loaded and processed from file: 25000...
+Processed 25590 sequences (fwd and rev).
+Read, hashed, and stored file ./000001.input.fasta to ./000001.input.dat.
+Time (s): 957.278007331
+Total time (s): 957.278266969

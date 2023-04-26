@@ -1,0 +1,64 @@
+
+Found 1 command tree.
+
+Counting 457 (estimated) million canonical 16-mers from 1 input file:
+    canu-seqStore: ../../lferriphilum.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  16-mers
+    -> 4294967296 entries for counts up to 65535.
+    -> 64 Gbits memory used
+
+  480025224 input bases
+    -> expected max count of 1920100, needing 6 extra bits.
+    -> 24 Gbits memory used
+
+  11 GB memory needed
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P  1780 kB   114 MM   110 kS  8192  B   886 MB   888 MB
+     2     4  P  1729 kB    57 MM    53 kS    16 kB   858 MB   860 MB
+     3     8  P  1686 kB    28 MM    25 kS    32 kB   830 MB   832 MB
+     4    16  P  1653 kB    14 MM    12 kS    64 kB   801 MB   802 MB
+     5    32  P  1647 kB  7324 kM  6184  S   128 kB   773 MB   774 MB
+     6    64  P  1690 kB  3662 kM  2977  S   256 kB   744 MB   745 MB
+     7   128  P  1836 kB  1831 kM  1432  S   512 kB   716 MB   717 MB
+     8   256  P  2182 kB   915 kM   687  S  1024 kB   687 MB   689 MB
+     9   512  P  2936 kB   457 kM   330  S  2048 kB   660 MB   662 MB
+    10  1024  P  4496 kB   228 kM   158  S  4096 kB   632 MB   636 MB  Best Value!
+    11  2048  P  7680 kB   114 kM    76  S  8192 kB   608 MB   615 MB
+    12  4096  P    13 MB    57 kM    36  S    16 MB   576 MB   589 MB
+    13  8192  P    26 MB    28 kM    17  S    32 MB   544 MB   570 MB
+    14    16 kP    51 MB    14 kM     9  S    64 MB   576 MB   627 MB
+    15    32 kP   102 MB  7325  M     4  S   128 MB   512 MB   614 MB
+    16    64 kP   203 MB  3663  M     2  S   256 MB   512 MB   715 MB
+    17   128 kP   405 MB  1832  M     1  S   512 MB   512 MB   917 MB
+    18   256 kP   810 MB   916  M     1  S  1024 MB  1024 MB  1834 MB
+    19   512 kP  1620 MB   458  M     1  S  2048 MB  2048 MB  3668 MB
+    20  1024 kP  3240 MB   229  M     1  S  4096 MB  4096 MB  7336 MB
+    21  2048 kP  6480 MB   115  M     1  S  8192 MB  8192 MB    14 GB
+    22  4096 kP    12 GB    58  M     1  S    16 GB    16 GB    28 GB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Estimated to require 1265 MB memory out of 12 GB allowed.
+Estimated to require 2 batches.
+
+Configured complex mode for 1.236 GB memory per batch, and up to 2 batches.
+
+Start counting with THREADED method.
+
+Cleaning up.
+
+Bye.

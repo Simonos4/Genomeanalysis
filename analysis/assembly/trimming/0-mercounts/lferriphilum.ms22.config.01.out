@@ -1,0 +1,54 @@
+
+Found 1 command tree.
+
+Counting 68 (estimated) million canonical 22-mers from 1 input file:
+    canu-seqStore: ../../lferriphilum.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  Not possible.
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P   376 kB    17 MM    23 kS  8192  B   185 MB   185 MB
+     2     4  P   374 kB  8815 kM    11 kS    16 kB   180 MB   181 MB
+     3     8  P   378 kB  4407 kM  5650  S    32 kB   176 MB   176 MB
+     4    16  P   395 kB  2203 kM  2756  S    64 kB   172 MB   172 MB
+     5    32  P   437 kB  1101 kM  1344  S   128 kB   168 MB   168 MB
+     6    64  P   529 kB   550 kM   655  S   256 kB   163 MB   164 MB
+     7   128  P   723 kB   275 kM   319  S   512 kB   159 MB   160 MB
+     8   256  P  1120 kB   137 kM   156  S  1024 kB   156 MB   157 MB
+     9   512  P  1920 kB    68 kM    76  S  2048 kB   152 MB   153 MB
+    10  1024  P  3528 kB    34 kM    37  S  4096 kB   148 MB   151 MB  Best Value!
+    11  2048  P  6752 kB    17 kM    18  S  8192 kB   144 MB   150 MB
+    12  4096  P    12 MB  8816  M     9  S    16 MB   144 MB   156 MB
+    13  8192  P    25 MB  4408  M     5  S    32 MB   160 MB   185 MB
+    14    16 kP    50 MB  2204  M     3  S    64 MB   192 MB   242 MB
+    15    32 kP   101 MB  1102  M     1  S   128 MB   128 MB   229 MB
+    16    64 kP   202 MB   551  M     1  S   256 MB   256 MB   458 MB
+    17   128 kP   405 MB   276  M     1  S   512 MB   512 MB   917 MB
+    18   256 kP   810 MB   138  M     1  S  1024 MB  1024 MB  1834 MB
+    19   512 kP  1620 MB    69  M     1  S  2048 MB  2048 MB  3668 MB
+    20  1024 kP  3240 MB    35  M     1  S  4096 MB  4096 MB  7336 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Estimated to require 299 MB memory out of 12 GB allowed.
+Estimated to require 2 batches.
+
+Configured complex mode for 0.293 GB memory per batch, and up to 2 batches.
+
+Start counting with THREADED method.
+
+Cleaning up.
+
+Bye.

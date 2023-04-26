@@ -1,0 +1,74 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 1 based on command line options.
+
+Found 1 command tree.
+
+Counting 52 (estimated) million canonical 22-mers from 1 input file:
+    canu-seqStore: ../../lferriphilum.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  Not possible.
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P   286 kB    13 MM    17 kS  8192  B   140 MB   140 MB
+     2     4  P   286 kB  6673 kM  8761  S    16 kB   136 MB   137 MB
+     3     8  P   292 kB  3336 kM  4277  S    32 kB   133 MB   133 MB
+     4    16  P   311 kB  1668 kM  2086  S    64 kB   130 MB   130 MB
+     5    32  P   355 kB   834 kM  1017  S   128 kB   127 MB   127 MB
+     6    64  P   450 kB   417 kM   496  S   256 kB   124 MB   124 MB
+     7   128  P   646 kB   208 kM   242  S   512 kB   121 MB   121 MB
+     8   256  P  1044 kB   104 kM   118  S  1024 kB   118 MB   119 MB
+     9   512  P  1848 kB    52 kM    58  S  2048 kB   116 MB   117 MB
+    10  1024  P  3456 kB    26 kM    28  S  4096 kB   112 MB   115 MB  Best Value!
+    11  2048  P  6688 kB    13 kM    14  S  8192 kB   112 MB   118 MB
+    12  4096  P    12 MB  6674  M     7  S    16 MB   112 MB   124 MB
+    13  8192  P    25 MB  3337  M     4  S    32 MB   128 MB   153 MB
+    14    16 kP    50 MB  1669  M     2  S    64 MB   128 MB   178 MB
+    15    32 kP   101 MB   835  M     1  S   128 MB   128 MB   229 MB
+    16    64 kP   202 MB   418  M     1  S   256 MB   256 MB   458 MB
+    17   128 kP   405 MB   209  M     1  S   512 MB   512 MB   917 MB
+    18   256 kP   810 MB   105  M     1  S  1024 MB  1024 MB  1834 MB
+    19   512 kP  1620 MB    53  M     1  S  2048 MB  2048 MB  3668 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Estimated to require 227 MB memory out of 2048 MB allowed.
+Estimated to require 2 batches.
+
+Configured complex mode for 0.222 GB memory per batch, and up to 2 batches.
+
+Start counting with THREADED method.
+Used 0.271 GB / 1.969 GB to store      2094203 kmers; need 0.002 GB to sort        30497 kmers
+Used 0.389 GB / 1.969 GB to store     31411791 kmers; need 0.017 GB to sort       279326 kmers
+
+Input complete.  Writing results to './lferriphilum.01.meryl.WORKING', using 4 threads.
+finishIteration()--
+
+Finished counting.
+
+Cleaning up.
+
+Bye.

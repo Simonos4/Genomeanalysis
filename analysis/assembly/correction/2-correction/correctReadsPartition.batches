@@ -1,0 +1,3 @@
+batch     bgnID     endID  nReads  memory (base memory 0.008 GB)
+----- --------- --------- ------- -------
+    1         1     40141    4156   0.116

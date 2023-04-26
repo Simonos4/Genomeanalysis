@@ -1,0 +1,40 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+
+Creating library 'ERR2028502' for PacBio raw reads.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         40141  73.7%    607308541  99.2%  /crex/proj/genomeanalysis2023/Genome_Analysis/2_Christel_2017/DNA_raw_data/ERR2028502.fastq.gz
+Short          14352  26.3%      5061616   0.8%
+
+
+All reads processed.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         40141  73.7%    607308541  99.2%
+Short          14352  26.3%      5061616   0.8%
+
+
+EXCESSIVE COVERAGE DETECTED.  Sampling reads.
+
+For genome size of      2400000 bases,
+            retain    480000000 bases (200.00X coverage).
+
+Found        40141 reads with    607308541 bases (253.05X coverage).
+Dropped       8455 reads with    127283317 bases (53.03X coverage).
+Retained     31686 reads with    480025224 bases (200.01X coverage).
+
+Bye.

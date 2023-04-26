@@ -1,0 +1,36 @@
+
+== Finding Potential Orphans ==
+
+tig        1 length   2562954 nReads     632/   3554 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig        2 length     51752 nReads       6/     20 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+
+== Found 0 Potential Orphans ==
+
+
+== Finding Read Placements for Potential Orphans ==
+
+
+== Found 0 placements for 0 reads. ==
+        36566 reads not placed: not in a tig
+         2943 reads not placed: contained
+        40140 reads not placed: not in an orhpan
+
+
+
+== Finding Potential Bubbles ==
+
+tig        1 length   2562954 nReads     632/   3554 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig        2 length     51752 nReads       6/     20 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+
+== Found 0 Potential Orphans ==
+
+
+== Finding Read Placements for Potential Orphans ==
+
+
+== Found 0 placements for 0 reads. ==
+        36566 reads not placed: not in a tig
+         2943 reads not placed: contained
+        40140 reads not placed: not in an orhpan
+
+

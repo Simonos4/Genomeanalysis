@@ -1,0 +1,3 @@
+Job 1 computes block 1 vs blocks 2-3 (and self),
+Job 2 computes block 2 vs blocks 3-3 (and self),
+Job 3 computes block 3 vs itself.

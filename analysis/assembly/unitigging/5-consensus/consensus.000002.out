@@ -1,0 +1,31 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+
+Found java:
+   /sw/comp/java/x86_64/sun_jdk1.8.0_151/bin/java
+   java version "1.8.0_151"
+
+Found canu:
+   /sw/bioinfo/canu/2.2/rackham/bin/canu
+   canu snapshot v2.2 +0 changes (r10279 af9c6e709ff2d6473cf966702c420b9eb42d9078)
+
+Running job 2 based on command line options.
+-- Using seqFile '../lferriphilum.ctgStore/partition.0002'.
+-- Opening tigStore '../lferriphilum.ctgStore' version 1.
+-- Opening output results file './ctgcns/0002.cns.WORKING'.
+--
+-- Computing consensus for b=0 to e=36 with errorRate 0.0750 (max 0.4000) and minimum overlap 500
+--
+Loading corrected-trimmed reads from seqFile '../lferriphilum.ctgStore/partition.0002'
+Consensus finished successfully.
+
+Bye.
+                           ----------CONTAINED READS----------  -DOVETAIL  READS-
+  tigID    length   reads      used coverage  ignored coverage      used coverage
+------- --------- -------  -------- -------- -------- --------  -------- --------
+      2     51752      20        15    5.80x        0    0.00x         5    3.26x
+
+Processed 1 tig and 34 singletons.
+
